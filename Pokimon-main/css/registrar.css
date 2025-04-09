@@ -1,0 +1,72 @@
+body {
+    background-image: url(../assets/img/img8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.titlePoki{
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 64px;
+    color: yellow;
+    text-align: center;
+    text-shadow: 2px 2px 8px #000;
+
+ }
+ .text-poki{
+    position: absolute;
+    top: 1%;
+    left: 35%;
+    transform: translateX(-50%);
+    font-size:35px ;
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+    color: rgb(0, 255, 255);
+    text-align: center;
+    text-shadow: 2px 2px 6px #000000;
+
+}
+
+.formulario {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    width: 300px;
+
+}
+.formulario input{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.formulario button{
+    width: 100%;
+    padding: 12px;
+    background-color: #ffcb05;
+    color: #2a75bb;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.formulario button:hover{
+    background-color: #2a75bb;
+    color: #ffcb05;
+}

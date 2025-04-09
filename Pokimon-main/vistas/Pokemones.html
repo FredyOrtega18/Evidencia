@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Entrenador</title>
+        <script src="../js/Entrenador.js"></script>
+        <link rel="stylesheet" href="../css/Pokemones.css">
+    </head>
+    <body>
+        <fieldset class="container-1"> 
+            <img id="imgPikachu" src="../assets/img/img9" alt="Pikachu" style="display: none;">
+            <img id="imgCharmander" src="../assets/img/img10" alt="Charmander" style="display: none;">
+            <img id="imgBulbasaur" src="../assets/img/img12" alt="Bulbasaur" style="display: none;">
+            <img id="imgSquirtle" src="../assets/img/img13" alt="Squirtle" style="display: none;">
+            <img id="imgEevee" src="../assets/img/img14.gif" alt="Eevee" style="display: none;">
+        </fieldset>
+        
+
+            <fieldset class="container-2">
+                <h1>Pokimons</h1>
+            
+                <label for="pokemonList">Selecciona un Pokémon:</label>
+                <select id="pokemonList" name="pokemonList" required>
+                    <option value="">--Seleccionar--</option>
+                    <option value="Pikachu">Pikachu ⚡🐹</option>
+                    <option value="Charmander">Charmander 🔥🐲</option>
+                    <option value="Bulbasaur">Bulbasaur 🌿🐢</option>
+                    <option value="Squirtle">Squirtle 💧🐸</option>
+                    <option value="Eevee">Eevee ☀️🦊</option>
+                </select>
+                <br><br>
+                <label>Tipo Pokimon: </label>
+                <input type="text" id="pokimon" name="pokimon" required readonly><br><br>
+            
+                <label for="ataque">Ataque: </label>
+                <input type="text" id="ataque" name="ataque" required readonly><br><br>
+            
+                <label for="defensa">Defensa: </label>
+                <input type="text" id="defensa" name="defensa" required readonly><br><br>
+            
+            </fieldset>
+            
+            <fieldset class="container-3">
+                <h1>OPCIONES</h1>
+                    <button onclick="verificarCombate()">Siguiente</button>
+            </fieldset>
+        </div>
+    </body>
+</html>

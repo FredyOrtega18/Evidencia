@@ -1,0 +1,81 @@
+
+body{
+    background-image: url(../assets/img/img3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .titlePoki{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 64px;
+    color: yellow;
+    text-align: center;
+    text-shadow: 2px 2px 8px #000;
+
+ }
+
+.text-poki {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'verdano', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 8px #000;
+
+}
+
+.botton-group{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    gap: 20px;
+}
+
+
+.botton-poki{
+    padding: 20px 40px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #ffcb05; 
+    color:  #2a75bb;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.botton-poki:hover{
+    background-color:  #2a75bb;
+    color:#ffcb05;
+    transform: scale(1.1);
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
